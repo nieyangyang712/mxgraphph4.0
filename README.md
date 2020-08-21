@@ -1,4 +1,4 @@
-# mxgraphph3.0
+# mxgraphph4.0
 
 ## Project setup
 ```
