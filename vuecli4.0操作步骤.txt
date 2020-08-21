@@ -1,0 +1,16 @@
+1.升级本地环境
+因为 vue-cli3.0 要 nodeJs ≧ 8.9（官方推荐 8.11.0+），所以我们先去 官网下载 一个稳定的新版本覆盖本地版本
+我安装的是 node12.13.0 版本，因为之前我本地全局安装了 2.0 的环境，所以需要全局卸载再安装 3.0
+
+npm uninstall -g vue-cli   //卸载2.0
+ 
+npm install -g @vue/cli   //安装最新的cli版本cli4.0
+
+2.创建项目
+命令：vue create my-project（项目名,禁止大写）
+
+选择不使用淘宝镜像后，选择手动配置
+
+default 是使用默认配置
+
+Manually select features 是自定义配置
